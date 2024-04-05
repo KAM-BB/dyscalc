@@ -1,0 +1,86 @@
+body{
+    height:100vh;
+    
+    background: rgb(246,124,173);
+background: linear-gradient(184deg, rgba(246,124,173,1) 64%, rgba(236,231,167,1) 100%);
+}
+
+
+* {
+
+    touch-action: manipulation;
+
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+.tekst-input{
+    background: rgba(255, 220, 255, 0.2);
+      border: 0px solid #EC87B2;
+      font-size: 120%;
+      padding-right: 0.5rem!important;
+      padding-left: 0.5rem!important;
+      border-radius: 7px;
+  }
+  
+  .aktivt{
+    border: 2px solid #fff;
+  }
+  
+  .calcTypeIndicator{
+    display: none;
+      margin-top: -20px;
+      width: 150px;
+      background: #FBE919;
+      color: white;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      margin-bottom: -20px;
+      z-index: 1000;
+      position: relative;
+      margin-left:-15px;
+      text-align: left;
+      padding-left: 8px;
+  }
+  .calcResultIndicator{
+       display: block;
+      margin-top: 20px;
+      width: 50px;
+      /* background: #FBE919; */
+      color: white;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      margin-bottom: -50px;
+      margin-bottom: -55px;
+      z-index: 1000;
+      position: relative;
+      margin-left: -15px;
+      text-align: left;
+      padding-left: 20px;
+      margin-left: 10px;
+  }
+  
+  .blue-knapp, .blue-knapp:focus, .blue-knapp:hover, .blue-knapp:active{
+    background-color: rgb(116, 195, 213);
+  }
+
+  .text-blue{
+    color: rgb(116, 195, 213);
+    text-shadow: 3px 1px 8px #7b1773;
+  }
+  
+  .gul-knapp, .gul-knapp:focus, .gul-knapp:hover, .gul-knapp:active{
+    background-color: #FBE919;
+  }
+  
+  .storan-tekst{
+    font-size: 30px;
+  }
+
+
+ 
